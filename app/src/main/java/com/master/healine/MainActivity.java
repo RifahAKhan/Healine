@@ -25,14 +25,13 @@ public class MainActivity extends AppCompatActivity {
         title=findViewById(R.id.title);
         tagline= findViewById(R.id.tagline);
         btn=findViewById(R.id.button);
-        screen = findViewById(R.id.screen);
+
 
 
         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.heading);
         title.startAnimation(animation1);
 
-        Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.screen);
-        screen.startAnimation(animation1);
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
