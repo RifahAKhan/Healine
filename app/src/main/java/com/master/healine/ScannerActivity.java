@@ -30,6 +30,7 @@ public class ScannerActivity extends AppCompatActivity {
         ScanBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 IntentIntegrator intentIntegrator = new IntentIntegrator(ScannerActivity.this);
 
                 intentIntegrator.setPrompt("For flush use volumes up key");
